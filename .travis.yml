@@ -1,8 +1,14 @@
 language: ruby
+dist: trusty
 rvm:
-  - 2.3.1
-  - 1.9.3
-gemfile:
-  - Gemfile
-before_install:
-  - gem install bundler
+#  - 1.9.3-p551
+#  - 2.0.0-p648
+#  - 2.1.9
+#  - 2.2.6
+#  - 2.3.3
+#  - 2.4.0
+#  - jruby-9.1.5.0
+  - rbx-3.69
+  - rbx-2.5.8
+  - rbx-head
+  - rbx
